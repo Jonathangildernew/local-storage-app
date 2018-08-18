@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  background-image: url("https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(68, 68, 68, 0.5);
+  height: 100vh;
+}
+
+h1 {
+  color: yellowgreen;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+label {
+  position: relative;
+  color: yellowgreen;
+}
+
+#input {
+  height: 25px;
+}
+
+#button {
+  height: 31px;
+}
+
+#delete {
+  color: darkgreen;
+  bottom: 18px;
+  position: relative;
+}
